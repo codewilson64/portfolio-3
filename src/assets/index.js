@@ -14,6 +14,6 @@ import external_link from "./external-link.svg";
 import mycoffee from "./mycoffee.png";
 import gogoanime from "./gogoanime.png";
 import email from "./email.svg";
-import resume from "./wilson-1.pdf";
+import resume from "./Frontend_CV.pdf";
 
 export { css, git, github, html, javascript, react, tailwind, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume };
