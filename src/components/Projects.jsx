@@ -10,7 +10,7 @@ const Projects = () => (
     {/* Project 1 */}
     <div className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
-        <img src={hoobank} alt="hoobank" className="rounded-lg object-contain" />
+        <img src={hoobank} alt="hoobank" className="rounded-lg object-contain z-[5]" />
       </div>
 
       <div className={`${layout.sectionInfo} text-center`}>
@@ -32,7 +32,7 @@ const Projects = () => (
           </a>
         </div>
 
-        <div className="absolute z-[0] w-[50%] h-[60%] right-10 bottom-30 blue__gradient"></div>
+        <div className="absolute z-[0] w-[60%] h-[60%] md:right-10 right-40 bottom-30 blue__gradient"></div>
       </div>
     </div>
     {/* Project 2 */}
@@ -57,16 +57,16 @@ const Projects = () => (
           </a>
         </div>
 
-        <div className="absolute z-[0] w-[50%] h-[60%] left-10 bottom-30 blue__gradient"></div>
+        <div className="absolute z-[0] w-[60%] h-[60%] md:left-10 left-44 bottom-30 blue__gradient"></div>
       </div>
       <div className={layout.sectionImg}>
-        <img src={mycoffee} alt="mycoffee" className="rounded-lg object-contain" />
+        <img src={mycoffee} alt="mycoffee" className="rounded-lg object-contain z-[5]" />
       </div>
     </div>
     {/* Project 3 */}
     <div className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
-        <img src={gogoanime} alt="gogoanime" className="rounded-lg object-contain" />
+        <img src={gogoanime} alt="gogoanime" className="rounded-lg object-contain z-[5]" />
       </div>
 
       <div className={`${layout.sectionInfo} text-center`}>
@@ -88,7 +88,7 @@ const Projects = () => (
           </a>
         </div>
 
-        <div className="absolute z-[0] w-[50%] h-[60%] right-10 bottom-30 blue__gradient"></div>
+        <div className="absolute z-[0] w-[60%] h-[60%] md:right-10 right-40 bottom-30 blue__gradient"></div>
       </div>
     </div>
   </section>

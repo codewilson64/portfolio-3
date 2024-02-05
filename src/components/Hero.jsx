@@ -23,7 +23,7 @@ const Hero = () => (
           WILSON <br className="xxs:block hidden" />
           <span className="text-gradient md:text-[42px] text-[32px]">Frontend Developer</span>
         </h1>
-        <div className="absolute z-[0] w-[50%] h-[60%] right-10 bottom-30 blue__gradient"></div>
+        <div className="absolute z-[0] w-[50%] h-[60%] right-40 sm:right-10 bottom-30 blue__gradient"></div>
       </div>
       <Button />
 
