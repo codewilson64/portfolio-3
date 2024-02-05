@@ -57,7 +57,7 @@ const Projects = () => (
           </a>
         </div>
 
-        <div className="absolute z-[0] w-[60%] h-[60%] md:left-10 left-44 bottom-30 blue__gradient"></div>
+        <div className="absolute z-[0] w-[60%] h-[60%] md:left-10 left-40 bottom-30 blue__gradient"></div>
       </div>
       <div className={layout.sectionImg}>
         <img src={mycoffee} alt="mycoffee" className="rounded-lg object-contain z-[5]" />
