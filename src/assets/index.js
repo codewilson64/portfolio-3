@@ -15,5 +15,6 @@ import mycoffee from "./mycoffee.png";
 import gogoanime from "./gogoanime.png";
 import email from "./email.svg";
 import resume from "./Frontend_CV.pdf";
+import youtube_clone from "./youtube_clone.png";
 
-export { css, git, github, html, javascript, react, tailwind, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume };
+export { css, git, github, html, javascript, react, tailwind, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume, youtube_clone };
