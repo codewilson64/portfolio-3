@@ -74,7 +74,7 @@ const Projects = () => (
         <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>A Youtube clone website where user can search for any kind of videos they want to watch. </p>
         <div className={`${styles.flexCenter} mx-auto mb-8`}>
           <h2 className="font-poppins text-[18px] font-semibold text-white mr-[20px] z-[5]">React</h2>
-          <h2 className="font-poppins text-[18px] font-semibold text-white z-[5]">Material UI</h2>
+          <h2 className="font-poppins text-[18px] font-semibold text-white z-[5]">TailwindCSS</h2>
         </div>
 
         <div className={`${styles.flexCenter} mx-auto`}>
