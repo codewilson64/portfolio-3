@@ -79,7 +79,7 @@ const Projects = () => (
 
         <div className={`${styles.flexCenter} mx-auto`}>
           <a
-            href="https://github.com/codewilson64/youtube-clone/tree/master"
+            href="https://github.com/codewilson64/youtube-clone/tree/main"
             className="flex font-poppins text-[16px] font-semibold text-white mr-[40px] py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]"
           >
             Code
