@@ -16,5 +16,6 @@ import gogoanime from "./gogoanime.png";
 import email from "./email.svg";
 import resume from "./Frontend_CV.pdf";
 import youtube_clone from "./youtube_clone.png";
+import ecommerce from "./ecommerce.png";
 
-export { css, git, github, html, javascript, react, tailwind, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume, youtube_clone };
+export { css, git, github, html, javascript, react, tailwind, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume, youtube_clone, ecommerce };

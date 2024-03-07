@@ -1,6 +1,5 @@
 import styles, { layout } from "../style";
-import { hoobank } from "../assets";
-import { github, external_link, mycoffee, youtube_clone } from "../assets";
+import { github, external_link, hoobank, mycoffee, youtube_clone, ecommerce } from "../assets";
 
 const Projects = () => (
   <section id="projects">
@@ -38,20 +37,22 @@ const Projects = () => (
     {/* Project 2 */}
     <div className={layout.section}>
       <div className={`${layout.sectionInfo} text-center`}>
-        <h2 className="font-poppins text-[25px] mx-auto font-semibold text-white z-[5]">Coffee Shop</h2>
-        <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>A coffee shop website is an online platform that allows users to choose and buy their favourite coffee beans for personal or business use.</p>
+        <h2 className="font-poppins text-[25px] mx-auto font-semibold text-white z-[5]">Ecommerce Website</h2>
+        <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>An ecommerce website that allow users to choose and buy their product of choice. Users can also add the product to the cart for later purchasing.</p>
         <div className={`${styles.flexCenter} mx-auto mb-8`}>
-          <h2 className="font-poppins text-[18px] font-semibold text-white mr-[20px] z-[5]">HTML</h2>
-          <h2 className="font-poppins text-[18px] font-semibold text-white mr-[20px] z-[5]">CSS</h2>
-          <h2 className="font-poppins text-[18px] font-semibold text-white z-[5]">Javascript</h2>
+          <h2 className="font-poppins text-[18px] font-semibold text-white mr-[20px] z-[5]">React</h2>
+          <h2 className="font-poppins text-[18px] font-semibold text-white z-[5]">TailwindCSS</h2>
         </div>
 
         <div className={`${styles.flexCenter} mx-auto`}>
-          <a href="https://github.com/codewilson64/my-coffee" className="flex font-poppins text-[16px] font-semibold text-white mr-[40px] py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
+          <a
+            href="https://github.com/codewilson64/ecommerce-shop/tree/master"
+            className="flex font-poppins text-[16px] font-semibold text-white mr-[40px] py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]"
+          >
             Code
             <img src={github} alt="github" className="ml-1" />
           </a>
-          <a href="https://codewilson64.github.io/my-coffee/" className="flex font-poppins text-[16px] font-semibold text-white py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
+          <a href="https://codewilson64.github.io/ecommerce-shop/" className="flex font-poppins text-[16px] font-semibold text-white py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
             Live Demo
             <img src={external_link} alt="external_link" className="ml-1" />
           </a>
@@ -60,7 +61,7 @@ const Projects = () => (
         <div className="absolute z-[0] w-[60%] h-[60%] md:left-10 left-40 bottom-30 blue__gradient"></div>
       </div>
       <div className={layout.sectionImg}>
-        <img src={mycoffee} alt="mycoffee" className="rounded-lg object-contain z-[5]" />
+        <img src={ecommerce} alt="ecommerce" className="rounded-lg object-contain z-[5]" />
       </div>
     </div>
     {/* Project 3 */}

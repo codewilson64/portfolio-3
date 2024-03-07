@@ -12,14 +12,14 @@ const Contact = () => (
       <div className={`${styles.flexCenter} ss:mb-0 mb-2 mr-2`}>
         <img src={email} alt="email" className="mr-2" />
         <a href="mailto:wilsonnn948@gmail.com" className="font-poppins text-[18px] font-semibold text-white hover:text-secondary mr-[20px] z-[5]">
-          Wilsonnn948@gmail.com
+          wilsonnn948@gmail.com
         </a>
       </div>
 
       <div className={styles.flexCenter}>
         <img src={github} alt="github" className="mr-2" />
         <a href="https://github.com/codewilson64/" className="font-poppins text-[18px] font-semibold text-white hover:text-secondary  mr-[20px] z-[5]">
-          Github.com/codewilson64/
+          github.com/codewilson64/
         </a>
       </div>
     </div>
