@@ -7,7 +7,7 @@ const Projects = () => (
       <h2 className={`${styles.heading2} text-center`}>Projects</h2>
     </div>
     {/* Project 1 */}
-    <div className={layout.sectionReverse}>
+    <div className={`${layout.sectionReverse} mb-8`}>
       <div className={layout.sectionImgReverse}>
         <img src={hoobank} alt="hoobank" className="rounded-lg object-contain z-[5]" />
       </div>
@@ -35,7 +35,7 @@ const Projects = () => (
       </div>
     </div>
     {/* Project 2 */}
-    <div className={layout.section}>
+    <div className={`${layout.section} mb-8`}>
       <div className={`${layout.sectionInfo} text-center`}>
         <h2 className="font-poppins text-[25px] mx-auto font-semibold text-white z-[5]">Ecommerce Website</h2>
         <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>An ecommerce website that allow users to choose and buy their product of choice. Users can also add the product to the cart for later purchasing.</p>
