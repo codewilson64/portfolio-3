@@ -1,4 +1,4 @@
-import { html, css, javascript, git, react, tailwind, github, email } from "../assets";
+import { html, css, javascript, git, react, tailwind, github, email, typescript, nextjs } from "../assets";
 
 export const navLinks = [
   {
@@ -22,33 +22,33 @@ export const navLinks = [
 export const experiences = [
   {
     id: "experience-1",
-    icon: html,
-    title: "HTML",
-  },
-  {
-    id: "experience-2",
-    icon: css,
-    title: "CSS",
-  },
-  {
-    id: "experience-3",
     icon: javascript,
     title: "Javascript",
   },
   {
-    id: "experience-4",
+    id: "experience-2",
     icon: git,
     title: "Git",
   },
   {
-    id: "experience-5",
+    id: "experience-3",
     icon: react,
     title: "React",
   },
   {
-    id: "experience-6",
+    id: "experience-4",
     icon: tailwind,
     title: "TailwindCSS",
+  },
+  {
+    id: "experience-5",
+    icon: typescript,
+    title: "Typescript",
+  },
+  {
+    id: "experience-6",
+    icon: nextjs,
+    title: "NextJS",
   },
 ];
 

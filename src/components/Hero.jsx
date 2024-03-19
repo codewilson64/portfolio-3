@@ -3,11 +3,9 @@ import { wilson } from "../assets";
 import Button from "./Button";
 import { experiences } from "../constants";
 
-const TechStack = ({ icon, index }) => (
+const TechStack = ({ icon }) => (
   <div>
-    <div>
-      <img src={icon} alt="icon" className={`w-[35px] h-[35px] object-contain ${index === experiences.length - 1 ? "mr-0" : "mr-8"}`} />
-    </div>
+    <img src={icon} alt="icon" className={`w-[35px] h-[35px] object-contain`} />
   </div>
 );
 
@@ -27,11 +25,13 @@ const Hero = () => (
       </div>
       <Button />
 
-      <div className="flex flex-row items-center py-[6px] px-4 rounded-[10px] mx-auto mt-16">
+      <div className="flex items-center py-[6px] px-4 rounded-[10px] mx-auto mt-16 z-10">
         <p className="font-poppins font-semibold text-[14px] text-white mr-8 border-r-2 border-cyan-500 pr-6">Tech Stack</p>
-        {experiences.map((experience, index) => (
-          <TechStack key={experience.id} {...experience} index={index} />
-        ))}
+        <div className="flex flex-wrap gap-4 ">
+          {experiences.map((experience, index) => (
+            <TechStack key={experience.id} {...experience} index={index} />
+          ))}
+        </div>
       </div>
     </div>
   </section>

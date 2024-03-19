@@ -1,5 +1,5 @@
 import styles, { layout } from "../style";
-import { github, external_link, hoobank, mycoffee, youtube_clone, ecommerce } from "../assets";
+import { github, external_link, hilink, youtube_clone, ecommerce, react, typescript, tailwind, nextjs } from "../assets";
 
 const Projects = () => (
   <section id="projects">
@@ -9,23 +9,24 @@ const Projects = () => (
     {/* Project 1 */}
     <div className={`${layout.sectionReverse} mb-8`}>
       <div className={layout.sectionImgReverse}>
-        <img src={hoobank} alt="hoobank" className="rounded-lg object-contain z-[5]" />
+        <img src={hilink} alt="hilink" className="rounded-lg object-contain z-[5]" />
       </div>
 
       <div className={`${layout.sectionInfo} text-center`}>
-        <h2 className="font-poppins text-[25px] mx-auto font-semibold text-white z-[5]">Hoobank</h2>
-        <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>Hoobank is a bank website that allows users to make transactions easy, reliable and secure.</p>
-        <div className={`${styles.flexCenter} mx-auto mb-8`}>
-          <h2 className="font-poppins text-[18px] font-semibold text-white mr-[20px] z-[5]">React</h2>
-          <h2 className="font-poppins text-[18px] font-semibold text-white z-[5]">TailwindCSS</h2>
+        <h2 className="font-poppins text-[25px] mx-auto font-semibold text-white z-[5]">Travel Website</h2>
+        <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>A modern travel app landing page that has an appealing user interface from the hero section down to the footer section.</p>
+        <div className={`${styles.flexCenter} mx-auto mb-8 gap-10 z-10`}>
+          <img src={nextjs} alt="nextjs" className={`w-[35px] h-[35px] object-contain`} />
+          <img src={typescript} alt="typescript" className={`w-[35px] h-[35px] object-contain`} />
+          <img src={tailwind} alt="tailwind" className={`w-[35px] h-[35px] object-contain`} />
         </div>
 
         <div className={`${styles.flexCenter} mx-auto`}>
-          <a href="https://github.com/codewilson64/hoobank" className="flex font-poppins text-[16px] font-semibold text-white mr-[40px] py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
+          <a href="https://github.com/codewilson64/hilink" className="flex font-poppins text-[16px] font-semibold text-white mr-[40px] py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
             Code
             <img src={github} alt="github" className="ml-1" />
           </a>
-          <a href="https://codewilson64.github.io/hoobank/" className="flex font-poppins text-[16px] font-semibold text-white py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
+          <a href="https://hilink-wine-five.vercel.app/" className="flex font-poppins text-[16px] font-semibold text-white py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
             Live Demo
             <img src={external_link} alt="external_link" className="ml-1" />
           </a>
@@ -39,9 +40,9 @@ const Projects = () => (
       <div className={`${layout.sectionInfo} text-center`}>
         <h2 className="font-poppins text-[25px] mx-auto font-semibold text-white z-[5]">Ecommerce Website</h2>
         <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>An ecommerce website that allow users to choose and buy their product of choice. Users can also add the product to the cart for later purchasing.</p>
-        <div className={`${styles.flexCenter} mx-auto mb-8`}>
-          <h2 className="font-poppins text-[18px] font-semibold text-white mr-[20px] z-[5]">React</h2>
-          <h2 className="font-poppins text-[18px] font-semibold text-white z-[5]">TailwindCSS</h2>
+        <div className={`${styles.flexCenter} mx-auto mb-8 gap-10 z-10`}>
+          <img src={react} alt="react" className={`w-[35px] h-[35px] object-contain`} />
+          <img src={tailwind} alt="tailwind" className={`w-[35px] h-[35px] object-contain`} />
         </div>
 
         <div className={`${styles.flexCenter} mx-auto`}>
@@ -73,9 +74,9 @@ const Projects = () => (
       <div className={`${layout.sectionInfo} text-center`}>
         <h2 className="font-poppins text-[25px] mx-auto font-semibold text-white z-[5]">Youtube Clone</h2>
         <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>A Youtube clone website where user can search for any kind of videos they want to watch. </p>
-        <div className={`${styles.flexCenter} mx-auto mb-8`}>
-          <h2 className="font-poppins text-[18px] font-semibold text-white mr-[20px] z-[5]">React</h2>
-          <h2 className="font-poppins text-[18px] font-semibold text-white z-[5]">TailwindCSS</h2>
+        <div className={`${styles.flexCenter} mx-auto mb-8 gap-10 z-10`}>
+          <img src={react} alt="react" className={`w-[35px] h-[35px] object-contain`} />
+          <img src={tailwind} alt="tailwind" className={`w-[35px] h-[35px] object-contain`} />
         </div>
 
         <div className={`${styles.flexCenter} mx-auto`}>

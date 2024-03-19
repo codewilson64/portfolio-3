@@ -5,6 +5,8 @@ import html from "./html.png";
 import javascript from "./javascript.png";
 import react from "./react.png";
 import tailwind from "./tailwind.png";
+import typescript from "./typescript.png";
+import nextjs from "./nextjs.png";
 import close from "./close.svg";
 import menu from "./menu.svg";
 import wilson from "./wilson.jpg";
@@ -17,5 +19,6 @@ import email from "./email.svg";
 import resume from "./Frontend_CV.pdf";
 import youtube_clone from "./youtube_clone.png";
 import ecommerce from "./ecommerce.png";
+import hilink from "./hilink.png";
 
-export { css, git, github, html, javascript, react, tailwind, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume, youtube_clone, ecommerce };
+export { css, git, github, html, javascript, react, tailwind, typescript, nextjs, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume, youtube_clone, ecommerce, hilink };
