@@ -15,10 +15,10 @@ const Projects = () => (
       <div className={`${layout.sectionInfo} text-center`}>
         <h2 className="font-poppins text-[25px] mx-auto font-semibold text-white z-[5]">Travel Website</h2>
         <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>A modern travel app landing page that has an appealing user interface from the hero section down to the footer section.</p>
-        <div className={`${styles.flexCenter} mx-auto mb-8 gap-10 z-10`}>
+        <div className={`${styles.flexCenter} mx-auto mb-8 gap-6 z-10`}>
           <img src={nextjs} alt="nextjs" className={`w-[35px] h-[35px] object-contain`} />
-          <img src={typescript} alt="typescript" className={`w-[35px] h-[35px] object-contain`} />
           <img src={tailwind} alt="tailwind" className={`w-[35px] h-[35px] object-contain`} />
+          <img src={typescript} alt="typescript" className={`w-[35px] h-[35px] object-contain`} />
         </div>
 
         <div className={`${styles.flexCenter} mx-auto`}>
@@ -40,7 +40,7 @@ const Projects = () => (
       <div className={`${layout.sectionInfo} text-center`}>
         <h2 className="font-poppins text-[25px] mx-auto font-semibold text-white z-[5]">Ecommerce Website</h2>
         <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>An ecommerce website that allow users to choose and buy their product of choice. Users can also add the product to the cart for later purchasing.</p>
-        <div className={`${styles.flexCenter} mx-auto mb-8 gap-10 z-10`}>
+        <div className={`${styles.flexCenter} mx-auto mb-8 gap-6 z-10`}>
           <img src={react} alt="react" className={`w-[35px] h-[35px] object-contain`} />
           <img src={tailwind} alt="tailwind" className={`w-[35px] h-[35px] object-contain`} />
         </div>
@@ -74,7 +74,7 @@ const Projects = () => (
       <div className={`${layout.sectionInfo} text-center`}>
         <h2 className="font-poppins text-[25px] mx-auto font-semibold text-white z-[5]">Youtube Clone</h2>
         <p className={`${styles.paragraph} max-w-[400px] mx-auto mt-5 mb-5 z-[5]`}>A Youtube clone website where user can search for any kind of videos they want to watch. </p>
-        <div className={`${styles.flexCenter} mx-auto mb-8 gap-10 z-10`}>
+        <div className={`${styles.flexCenter} mx-auto mb-8 gap-6 z-10`}>
           <img src={react} alt="react" className={`w-[35px] h-[35px] object-contain`} />
           <img src={tailwind} alt="tailwind" className={`w-[35px] h-[35px] object-contain`} />
         </div>

@@ -27,9 +27,9 @@ const Hero = () => (
 
       <div className="flex items-center py-[6px] px-4 rounded-[10px] mx-auto mt-16 z-10">
         <p className="font-poppins font-semibold text-[14px] text-white mr-8 border-r-2 border-cyan-500 pr-6">Tech Stack</p>
-        <div className="flex flex-wrap gap-4 ">
-          {experiences.map((experience, index) => (
-            <TechStack key={experience.id} {...experience} index={index} />
+        <div className="flex flex-wrap gap-4">
+          {experiences.map((experience) => (
+            <TechStack key={experience.id} {...experience} />
           ))}
         </div>
       </div>
