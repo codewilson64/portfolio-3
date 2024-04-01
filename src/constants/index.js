@@ -1,4 +1,4 @@
-import { html, css, javascript, git, react, tailwind, github, email, typescript, nextjs } from "../assets";
+import { html, css, javascript, git, react, tailwind, github, whatsapp, email, typescript, nextjs } from "../assets";
 
 export const navLinks = [
   {
@@ -56,10 +56,15 @@ export const contacts = [
   {
     id: "contact-1",
     icon: email,
-    link: "https://wilsonnn948@gmail.com",
+    link: "mailto:wilsonnn948@gmail.com",
   },
   {
     id: "contact-2",
+    icon: whatsapp,
+    link: "https://wa.me/6287885343817",
+  },
+  {
+    id: "contact-3",
     icon: github,
     link: "https://github.com/codewilson64/",
   },

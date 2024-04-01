@@ -11,7 +11,7 @@ const Navbar = () => {
       </a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
-          <li key={nav.id} className={`text-white font-poppins font-normal text-[16px] hover:text-secondary cursor-pointer ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}>
+          <li key={nav.id} className={`text-white font-poppins font-normal text-[16px] hover:text-secondary cursor-pointer ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} z-10`}>
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
@@ -21,7 +21,7 @@ const Navbar = () => {
         <img src={toggle ? close : menu} alt="menu" className="w-[28px] h-[28px] object-contain cursor-pointer" onClick={() => setToggle((prev) => !prev)} />
       </div>
 
-      <a href="https://github.com/codewilson64/">
+      <a href="https://github.com/codewilson64/" className="z-10">
         <img src={github} alt="github" className="ml-6 w-[20px]" />
       </a>
 

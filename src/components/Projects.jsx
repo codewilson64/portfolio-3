@@ -4,7 +4,7 @@ import { github, external_link, hilink, youtube_clone, ecommerce, react, typescr
 const Projects = () => (
   <section id="projects">
     <div>
-      <h2 className={`${styles.heading2} text-center`}>Projects</h2>
+      <h2 className={`${styles.heading2} text-center`}>My Projects</h2>
     </div>
     {/* Project 1 */}
     <div className={`${layout.sectionReverse} mb-8`}>

@@ -20,5 +20,6 @@ import resume from "./Frontend_CV.pdf";
 import youtube_clone from "./youtube_clone.png";
 import ecommerce from "./ecommerce.png";
 import hilink from "./hilink.png";
+import whatsapp from "./whatsapp.svg";
 
-export { css, git, github, html, javascript, react, tailwind, typescript, nextjs, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume, youtube_clone, ecommerce, hilink };
+export { css, git, github, html, javascript, react, tailwind, typescript, nextjs, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume, youtube_clone, ecommerce, hilink, whatsapp };
