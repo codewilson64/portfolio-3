@@ -5,7 +5,7 @@ import { contacts } from "../constants";
 const SocialMedia = ({ icon, link, index }) => (
   <div className={styles.flexCenter}>
     <a href={link} className={`${index === contacts.length - 1 ? "mr-0" : "mr-[30px]"} z-10`}>
-      <img src={icon} alt="whatsapp" className="sm:w-[35px] w-[20px]" />
+      <img src={icon} alt="whatsapp" className="sm:w-[35px] w-[25px]" />
     </a>
   </div>
 );

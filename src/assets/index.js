@@ -4,6 +4,7 @@ import github from "./github.svg";
 import html from "./html.png";
 import javascript from "./javascript.png";
 import react from "./react.png";
+import redux from "./redux.png";
 import tailwind from "./tailwind.png";
 import typescript from "./typescript.png";
 import nextjs from "./nextjs.png";
@@ -22,4 +23,4 @@ import ecommerce from "./ecommerce.png";
 import hilink from "./hilink.png";
 import whatsapp from "./whatsapp.svg";
 
-export { css, git, github, html, javascript, react, tailwind, typescript, nextjs, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume, youtube_clone, ecommerce, hilink, whatsapp };
+export { css, git, github, html, javascript, react, redux, tailwind, typescript, nextjs, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume, youtube_clone, ecommerce, hilink, whatsapp };
