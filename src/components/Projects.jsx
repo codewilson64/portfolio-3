@@ -1,5 +1,5 @@
 import styles, { layout } from "../style";
-import { github, external_link, hilink, youtube_clone, ecommerce, react, redux, typescript, tailwind, nextjs } from "../assets";
+import { github, external_link, hilink, techhaven, youtube_clone, ecommerce, react, redux, typescript, tailwind, nextjs } from "../assets";
 
 const Projects = () => (
   <section id="projects">
@@ -22,11 +22,19 @@ const Projects = () => (
         </div>
 
         <div className={`${styles.flexCenter} mx-auto`}>
-          <a href="https://github.com/codewilson64/hilink" className="flex font-poppins text-[16px] font-semibold text-white mr-[40px] py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
+          <a
+            href="https://github.com/codewilson64/hilink"
+            target="_blank"
+            className="flex font-poppins text-[16px] font-semibold text-white mr-[40px] py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]"
+          >
             Code
             <img src={github} alt="github" className="ml-1" />
           </a>
-          <a href="https://hilink-wine-five.vercel.app/" className="flex font-poppins text-[16px] font-semibold text-white py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
+          <a
+            href="https://hilink-wine-five.vercel.app/"
+            target="_blank"
+            className="flex font-poppins text-[16px] font-semibold text-white py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]"
+          >
             Live Demo
             <img src={external_link} alt="external_link" className="ml-1" />
           </a>
@@ -48,13 +56,18 @@ const Projects = () => (
 
         <div className={`${styles.flexCenter} mx-auto`}>
           <a
-            href="https://github.com/codewilson64/ecommerce-shop/tree/master"
+            href="https://github.com/codewilson64/techhaven/tree/master"
+            target="_blank"
             className="flex font-poppins text-[16px] font-semibold text-white mr-[40px] py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]"
           >
             Code
             <img src={github} alt="github" className="ml-1" />
           </a>
-          <a href="https://codewilson64.github.io/ecommerce-shop/" className="flex font-poppins text-[16px] font-semibold text-white py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
+          <a
+            href="https://codewilson64.github.io/techhaven/"
+            target="_blank"
+            className="flex font-poppins text-[16px] font-semibold text-white py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]"
+          >
             Live Demo
             <img src={external_link} alt="external_link" className="ml-1" />
           </a>
@@ -63,7 +76,7 @@ const Projects = () => (
         <div className="absolute z-[0] w-[60%] h-[60%] md:left-10 left-40 bottom-30 blue__gradient"></div>
       </div>
       <div className={layout.sectionImg}>
-        <img src={ecommerce} alt="ecommerce" className="rounded-lg object-contain z-[5]" />
+        <img src={techhaven} alt="ecommerce" className="rounded-lg object-contain z-[5]" />
       </div>
     </div>
     {/* Project 3 */}
@@ -85,12 +98,17 @@ const Projects = () => (
         <div className={`${styles.flexCenter} mx-auto`}>
           <a
             href="https://github.com/codewilson64/youtube-clone/tree/main"
+            target="_blank"
             className="flex font-poppins text-[16px] font-semibold text-white mr-[40px] py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]"
           >
             Code
             <img src={github} alt="github" className="ml-1" />
           </a>
-          <a href="https://codewilson64.github.io/youtube-clone/" className="flex font-poppins text-[16px] font-semibold text-white py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]">
+          <a
+            href="https://codewilson64.github.io/youtube-clone/"
+            target="_blank"
+            className="flex font-poppins text-[16px] font-semibold text-white py-3 px-5 bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-cyan-500/50 outline-none rounded-full z-[5]"
+          >
             Live Demo
             <img src={external_link} alt="external_link" className="ml-1" />
           </a>

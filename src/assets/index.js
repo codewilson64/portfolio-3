@@ -13,6 +13,7 @@ import menu from "./menu.svg";
 import wilson from "./wilson.jpg";
 import frontend from "./frontend.png";
 import hoobank from "./hoobank.png";
+import techhaven from "./techhaven.png";
 import external_link from "./external-link.svg";
 import mycoffee from "./mycoffee.png";
 import gogoanime from "./gogoanime.png";
@@ -23,4 +24,4 @@ import ecommerce from "./ecommerce.png";
 import hilink from "./hilink.png";
 import whatsapp from "./whatsapp.svg";
 
-export { css, git, github, html, javascript, react, redux, tailwind, typescript, nextjs, close, menu, wilson, frontend, hoobank, external_link, mycoffee, gogoanime, email, resume, youtube_clone, ecommerce, hilink, whatsapp };
+export { css, git, github, html, javascript, react, redux, tailwind, typescript, nextjs, close, menu, wilson, frontend, hoobank, techhaven, external_link, mycoffee, gogoanime, email, resume, youtube_clone, ecommerce, hilink, whatsapp };
