@@ -19,7 +19,7 @@ const Hero = () => (
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold md:text-[72px] text-[52px] text-white text-center md:leading-[60px] leading-[50px] z-[5]">
           WILSON <br className="xxs:block hidden" />
-          <span className="text-gradient md:text-[42px] text-[32px]">Frontend Developer</span>
+          <span className="text-gradient md:text-[42px] text-[32px]">Web Developer</span>
         </h1>
         <div className="absolute z-[0] w-[70%] h-[60%] right-40 bottom-30 blue__gradient"></div>
       </div>
