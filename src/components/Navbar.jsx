@@ -6,9 +6,9 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <a href="#" className="text-white text-3xl font-bold italic">
+      {/* <a href="#" className="text-white text-3xl font-bold italic">
         Wilson
-      </a>
+      </a> */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li key={nav.id} className={`text-white font-poppins font-normal text-[16px] hover:text-secondary cursor-pointer ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} z-10`}>
